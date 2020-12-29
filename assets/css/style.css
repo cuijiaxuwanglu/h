@@ -1,0 +1,110 @@
+/*老朽原创，版权你们留不留都无所谓*/
+
+/*全局*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	background: url(../images/cover.jpg);
+	background-size: cover;
+}
+/*导航样式*/
+.navbar-collapse>ul>li>a{
+	font-weight: 600;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+/*头部样式*/
+.Laoxiu_Header-containar{
+	background: #45B5DA;
+		background: rgba(0,0,0,.6);
+	height: 21.5rem;
+}
+
+.Laoxiu_Header-containar>.row>.col-lg-12>h2{
+	font-size: 43px;
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.Laoxiu_Header-containar>.row>.col-lg-12>p{
+	font-size: 18px;
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	border-radius: 4px;
+}
+
+/*中心样式*/
+.Laoxiu_Main-containar{
+	background: #cae1aa;
+	background: rgba(0,0,0,.6);
+	height: 60rem;
+}
+
+.progress>.progress-bar>p{
+	font-size: 16px;
+	margin-top: 0.6rem;
+	font-weight:400;
+}
+
+.col-lg-12>h2{
+	color: #fff;
+	text-shadow: 5px 3px 2px black;
+	text-align: center;
+}
+
+.col-lg-12>h2>img{
+	height: 120px;
+	border-radius: 50%;
+}
+
+
+/*底部样式开始*/
+.Laoxiu_Footer-containar{
+	background: white;
+	background: rgba(0,0,0,.6);
+	height: 16rem;
+}
+.Laoxiu_Footer-Link{
+
+}
+.Laoxiu_Footer-Link-Link{
+
+}
+.btn{
+	margin-bottom: 2rem;
+}
+/*媒体查询*/
+@media (max-width: 1200px){
+	.Laoxiu_Main-rl{
+		padding-right: 15rem !important; 
+		padding-left: 15rem !important;
+	}
+}
+@media (max-width: 768px){
+	.Laoxiu_Main-rl{
+		padding-right: 10rem !important; 
+		padding-left: 10rem !important;
+	}
+}
+@media (max-width: 688px){
+	.col-lg-12>h2>img{
+		display: none;
+	}
+}
+@media (max-width: 640px){
+	.Laoxiu_Main-rl{
+		padding-right: 6rem !important; 
+		padding-left: 6rem !important;
+	}
+	.col-lg-12>h2>img{
+		display: none;
+	}
+}
