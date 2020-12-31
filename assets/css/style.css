@@ -6,7 +6,7 @@
   padding: 0;
 }
 body{
-	background: url(../images/cover.jpg);
+	background: url('https://hashx.cn/images/2020/12/29/Vu9Gu.jpg');
 	background-size: cover;
 }
 /*导航样式*/
@@ -68,7 +68,7 @@ body{
 
 /*底部样式开始*/
 .Laoxiu_Footer-containar{
-	background: white;
+	background: #9dcdc8;
 	background: rgba(0,0,0,.6);
 	height: 16rem;
 }
@@ -103,8 +103,21 @@ body{
 	.Laoxiu_Main-rl{
 		padding-right: 6rem !important; 
 		padding-left: 6rem !important;
+		padding-top: 0.9rem !important;
 	}
 	.col-lg-12>h2>img{
 		display: none;
+	}
+	#x-top{
+		margin-top: 20px !important;
+	}
+}
+
+@media (max-width: 682px){
+	.Laoxiu_Main-rl{
+		padding-top: 0.9rem !important;
+	}	
+	#x-top{
+		margin-top: 20px !important;
 	}
 }
